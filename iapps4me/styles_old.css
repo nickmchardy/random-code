@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+body{
+    background-color: #fff;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    margin:0pt;
+    cursor:default;
+}
+html,body{
+    height:100%;
+}
+.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+strong{
+    font-weight: 700;
+}
+/******* GENERAL RESET *******/
+h1{
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.25em;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.15em;
+    font-weight: 600;
+    line-height: 1.25em;
+    margin-bottom: 1em;
+}
+
+#container{
+    width: 850px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#logo {
+	width: 441px;
+	height: 160px;
+	background: url('images/logo.jpg') no-repeat;
+}
+
+#button a{
+	line-height: 2.25em;
+	font-size: 1.25em;
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	text-align: center;
+	width: 310px;
+	height: 60px;
+	background: url('images/post.jpg') top left no-repeat;
+}
+
+#button a:hover {
+	text-decoration: underline;
+	color: #000;
+	background: url('images/post.jpg') bottom left no-repeat;
+}
+
+#right {
+	margin: 5px 0 0 90px;
+}
+
+#listings li, #details {
+	display: block;
+	list-style: none;
+	position: relative;
+	padding: 20px;
+	margin: 15px 0;
+}
+
+#listings li {
+	background: #F0F7FC;
+}
+
+#listings h2, #details h2{
+	margin: 0;
+}
+
+#listings span, #details span{
+	position: absolute;
+	top: 25px;
+	right: 15px;
+}
+
+#listings p {
+	margin: 10px 10px 25px 10px ;
+}
+
+#details p {
+	margin: 10px 10px 10px 10px ;
+}
+
+#listings a {
+	position: absolute;
+	bottom: 15px;
+	right: 40px;
+}
+
+#listings a:hover {
+	text-decoration: none;
+}
+
+#listings div.corner {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 40px;
+	height: 40px;
+	background: transparent url('images/corner.png') bottom right no-repeat;
+}
+
+#footer {
+	margin: 30px 0 15px 550px;
+}
+
+#footer a {
+	vertical-align: top;
+	color: #333;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#form {
+    padding: 0 30px;
+    margin: 15px 0;
+}
+
+#form label {
+	display: block;
+	width: 80px;
+	vertical-align: top;
+	float: left;
+}
+
+#form input, #form textarea {
+	margin: 0 0 0 10px;
+	max-width: 320px;
+	display: block;
+}
+
+#form div {
+	margin: 15px;
+}

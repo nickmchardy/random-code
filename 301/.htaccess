@@ -1,0 +1,7 @@
+#
+# ReWrite Engine for Apache
+#
+# Enables nice URLs like http://www.example.com/site/article/viewarticle/home/ to be utilised with Apache.
+
+RewriteEngine on
+RewriteRule ^(.+)/?$ index.php?/$1 [L]
